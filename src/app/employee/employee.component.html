@@ -1,0 +1,7 @@
+<h2>employee List</h2>
+<button type="button" (click)="getEmployees()"> Click Me</button>
+<a *ngFor="let e of emp">
+    <div>
+        <h4>{{e.empName}}</h4>
+    </div>
+</a>
